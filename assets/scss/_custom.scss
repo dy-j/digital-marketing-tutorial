@@ -26,4 +26,22 @@ body {
     a {
       color: $cyan;
     }
+    p {
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+    blockquote {
+      font-style: italic;
+      color: $gray-600;
+      p {
+        margin: -10px 0;
+        text-align: center;
+      }
+    }
+}
+
+//contact
+#sendMessageButton {
+  background-color: #6A0BD5;
+  border-color: #6A0BD5;
 }
