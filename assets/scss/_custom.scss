@@ -22,6 +22,8 @@ body {
     }
     img {
       margin: 15px 0;
+      box-shadow: 5px 5px 5px #E4E4E4;
+      border:1px solid #E4E4E4;
     }
     a {
       color: $cyan;
@@ -33,15 +35,27 @@ body {
     blockquote {
       font-style: italic;
       color: $gray-600;
+      padding: 15px 0 15px 0;
       p {
         margin: -10px 0;
-        text-align: center;
+      }
+    }
+    blockquote:before {
+      content: "\201C";
+      font-size: 3em;
+      color: #D1BAFF;
+      float: left;
+      margin: -35px 10px 0px 0px;
+    }
+    @media only screen and (max-width: 768px){
+      > p, a {
+        font-size: 1rem;
       }
     }
 }
 
 //contact
-#sendMessageButton {
+.btn {
   background-color: #6A0BD5;
   border-color: #6A0BD5;
 }
