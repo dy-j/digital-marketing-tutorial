@@ -9,14 +9,14 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $purple; //$primary
+  border-color: $purple; //$primary
   &:hover,
   &:focus,
   &:active {
     color: $white;
-    background-color: darken($primary, 7.5) !important;
-    border-color: darken($primary, 7.5) !important;
+    background-color: darken($purple, 20) !important;
+    border-color: darken($purple, 20) !important;
   }
 }
 

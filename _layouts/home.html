@@ -39,9 +39,9 @@ layout: default
             {% endif %}
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.description %}
-            <h5 class="post-subtitle">{{ post.description }}</h5>
+            <h4 class="post-subtitle">{{ post.description }}</h4>
             {% else %}
-            <h5 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h5>
+            <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
             {% endif %}
           </a>
           <p class="post-meta">

@@ -25,12 +25,18 @@ body {
       box-shadow: 5px 5px 5px #E4E4E4;
       border:1px solid #E4E4E4;
     }
-    a {
-      color: $cyan;
-    }
     p {
       line-height: 1.5;
       margin: 20px 0;
+      a {
+        color: $cyan;
+      }
+    }
+    ul, ol {
+      margin: -10px 0;
+      a {
+        color: $cyan;
+      }
     }
     blockquote {
       font-style: italic;
@@ -45,7 +51,7 @@ body {
       font-size: 3em;
       color: #D1BAFF;
       float: left;
-      margin: -35px 10px 0px 0px;
+      margin: -35px 10px -15px 0px;
     }
     @media only screen and (max-width: 768px){
       > p, a {
@@ -56,6 +62,6 @@ body {
 
 //contact
 .btn {
-  background-color: #6A0BD5;
+  background-color: $purple;
   border-color: #6A0BD5;
 }
