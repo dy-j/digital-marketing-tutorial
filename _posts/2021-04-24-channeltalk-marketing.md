@@ -36,13 +36,13 @@ DB 수집을 위한 절차는
 채널톡으로 팝업을 띄우는 방법을 천천히 따라해 보세요.
 
 1. 채널톡의 [마케팅] - [캠페인] - [캠페인 만들기]를 선택합니다.
-![채널톡 팝업과 CTA 버튼](/img/posts/channeltalk/2.png)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/2.png)
 
 2. 강조를 위해 전체화면 팝업을 선택합니다.
-![채널톡 팝업과 CTA 버튼](/img/posts/channeltalk/3.png)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/3.png)
 
 3. [시작 이벤트]에서 [Pageview] - [url]을 선택하고 노출하고자 하는 페이지 url을 입력하거나 선택합니다.
-![채널톡 팝업과 CTA 버튼](/img/posts/channeltalk/4.png)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/4.png)
 
 4. 오른쪽 상단의 [퍼블리시]를 눌러 완료하면 세팅이 완료됩니다.
 
