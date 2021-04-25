@@ -3,7 +3,7 @@ layout: post
 permalink: /channeltalk-marketing/
 title: '채널톡을 통한 고객 데이터 수집율 "2배"로 높이기'
 date: 2021-04-24 10:35:00 +09:00
-feature: '/img/posts/channeltalk/post2_thumb.png'
+feature: '/img/posts/channeltalk/post2_thumb.PNG'
 categories:
   - tutorial
 tags:
@@ -29,20 +29,20 @@ DB 수집을 위한 절차는
 
 ### 개선 방법 : 채널톡의 마케팅 캠페인 기능 활용
 채널톡의 [마케팅] - [캠페인] - [캠페인 만들기]를 활용하면, 특정 페이지 방문 시 팝업 메세지를 노출 시키고 팝업 내부에 CTA 버튼을 삽입할 수 있습니다. 그래서 해당 메세지에 '마감 알림'과 '다음 개강 알림 신청 CTA 버튼'을 추가하고 '알림 신청 시 이점'을 강조해 팝업을 제작했습니다.
-![채널톡 팝업과 CTA 버튼](/img/posts/channeltalk/1.png)*실제 마감된 교육과정에 노출했던 팝업창*
+![채널톡 팝업과 CTA 버튼](/img/posts/channeltalk/1.PNG)*실제 마감된 교육과정에 노출했던 팝업창*
 
 ### 튜토리얼 : 초간단 팝업 세팅하기
 
 채널톡으로 팝업을 띄우는 방법을 천천히 따라해 보세요.
 
 1. 채널톡의 [마케팅] - [캠페인] - [캠페인 만들기]를 선택합니다.
-![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/2.png)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/2.PNG)
 
 2. 강조를 위해 전체화면 팝업을 선택합니다.
-![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/3.png)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/3.PNG)
 
 3. [시작 이벤트]에서 [Pageview] - [url]을 선택하고 노출하고자 하는 페이지 url을 입력하거나 선택합니다.
-![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/4.png)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/4.PNG)
 
 4. 오른쪽 상단의 [퍼블리시]를 눌러 완료하면 세팅이 완료됩니다.
 
