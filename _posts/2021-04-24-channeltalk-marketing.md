@@ -36,7 +36,7 @@ DB 수집을 위한 절차는
 채널톡으로 팝업을 띄우는 방법을 천천히 따라해 보세요.
 
 1. 채널톡의 [마케팅] - [캠페인] - [캠페인 만들기]를 선택합니다.
-![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/2.PNG)
+![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/2.PNG){:data-action="zoom"}
 
 2. 강조를 위해 전체화면 팝업을 선택합니다.
 ![채널톡 마케팅 캠페인 설정하기](/img/posts/channeltalk/3.PNG)
