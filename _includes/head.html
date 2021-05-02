@@ -75,6 +75,21 @@
   {% endif %}
   <!-- End SEO Tag -->
 
+  <!-- 페이지에 feature가 있으면 구조화된 데이터 Tag -->
+  {% if page.feature %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "{{ page.title }}",
+      "image": [
+        "{{ site.github.url }}{{ page.feature }}"
+       ],
+      "datePublished": "{{ page.date | date_to_xmlschema }}"
+    }
+    </script>
+  {% endif %}
+  
   <!-- Favicon Tag -->
   <link rel="apple-touch-icon" sizes="57x57" href="{{ site.github.url }}/img/icon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ site.github.url }}/img/icon/apple-icon-60x60.png">
@@ -94,5 +109,5 @@
   <meta name="msapplication-TileImage" content="{{ site.github.url }}/img/icon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <!-- End Favicon Tag -->
-  
+
 </head>
