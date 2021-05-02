@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hard-carry.com/sitemap.xml
+#DaumWebMasterTool:b0b7e97ba62e5248ce7d971e3d2f4b2f999a57f2440fa4c222b2287a6cdf2aa8:SBDn+3M1gAUD2c6N/ci3rg==
