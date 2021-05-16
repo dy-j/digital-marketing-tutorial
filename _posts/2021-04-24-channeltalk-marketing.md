@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /channeltalk-marketing/
-title: "채널톡을 통한 고객 데이터 수집율 '2배'로 높이기"
+title: '채널톡을 통한 고객 데이터 수집율 "2배"로 높이기'
 date: 2021-04-24 10:35:00 +09:00
 feature: '/img/posts/channeltalk/post2_thumb.png'
 categories:
