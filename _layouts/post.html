@@ -51,11 +51,11 @@ layout: default
     </div>
   </article>
 
-{% include disqus.html %}
+  <script>
+    gtag('event', '보기', {
+      'event_category': '글',
+      'event_label': {{ page.title }},
+    });
+  </script>
 
-<script>
-  gtag('event', '보기', {
-    'event_category': '글',
-    'event_label': {{ page.title }},
-  });
-</script>
+{% include disqus.html %}
