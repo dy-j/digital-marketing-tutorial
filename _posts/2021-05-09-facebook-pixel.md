@@ -3,7 +3,7 @@ layout: post
 permalink: /facebook-pixel-connect/
 title: "페이스북 픽셀 설치 및 작동 확인하는 방법 - 픽셀 헬퍼"
 date: 2021-05-09 10:35:00 +09:00
-feature: '/img/posts/facebookpixel/post4_thumb.png'
+feature: '/img/posts/04_facebookpixel/facebookpixel_thumb.png'
 categories:
   - tutorial
 tags:
@@ -38,18 +38,18 @@ description: '페이스북 광고를 위한 필수 도구인 픽셀을 설치하
 
 **오른쪽 상단의 비즈니스를 확인하여, 설치하려는 비즈니스가 맞는지 꼭 확인하세요.(노란색 영역)*
 
-![페이스북 픽셀 생성](/img/posts/facebookpixel/eventsmanagerconnect.PNG)*[데이터 소스 연결] 클릭 후 보이는 화면 - [웹]을 선택하세요*
+![페이스북 픽셀 생성](/img/posts/04_facebookpixel/eventsmanagerconnect.PNG)*[데이터 소스 연결] 클릭 후 보이는 화면 - [웹]을 선택하세요*
 
 <br>
 * 연결 수단 선택에서 오른쪽의 **[Facebook 픽셀]**을 선택해주세요.
 
-![페이스북 픽셀 생성](/img/posts/facebookpixel/eventsmanagerconnect2.PNG)*[웹] 선택 후 보이는 화면 - [Facebook 픽셀]을 선택하세요*
+![페이스북 픽셀 생성](/img/posts/04_facebookpixel/eventsmanagerconnect2.PNG)*[웹] 선택 후 보이는 화면 - [Facebook 픽셀]을 선택하세요*
 
 <br>
 * "픽셀을 사용하여 웹사이트 활동 연결"이라는 페이지가 보이면 [계속]
 * "상세 정보 추가" 페이지에서 픽셀 이름을 지정해주세요. 픽셀 이름은 이후에 수정할 수 있습니다. 입력했다면 [계속]
 
-![페이스북 픽셀 생성](/img/posts/facebookpixel/eventsmanagerconnect4.PNG)
+![페이스북 픽셀 생성](/img/posts/04_facebookpixel/eventsmanagerconnect4.PNG)
 
 팝업창 뒤로 픽셀이 생성된 것을 확인할 수 있습니다. 이어서 코드 설치까지 진행해보겠습니다.
 
@@ -59,16 +59,16 @@ description: '페이스북 광고를 위한 필수 도구인 픽셀을 설치하
 
 * 왼쪽의 [코드 직접 설치]를 선택합니다.
 
-![페이스북 픽셀 코드 설치](/img/posts/facebookpixel/pixelcode.PNG)
+![페이스북 픽셀 코드 설치](/img/posts/04_facebookpixel/pixelcode.PNG)
 
 <br>
 * [코드 복사]를 통해 기본 코드를 복사합니다. 코드 설치 위치는 "픽셀 코드를 사이트의 헤더 섹션 하단 </head> 태그 바로 위에 붙여넣으세요. 웹사이트의 모든 페이지에 기본 코드를 설치하세요."라고 안내 된 것을 볼 수 있습니다.
 
-![페이스북 픽셀 코드 설치](/img/posts/facebookpixel/pixelcode2.PNG)
+![페이스북 픽셀 코드 설치](/img/posts/04_facebookpixel/pixelcode2.PNG)
 
 * [자동 고급 매칭]은 설정, 다음 페이지의 [이벤트 설정 도구]는 우선 생략하고 오른쪽 하단의 계속 - 픽셀 개요로 이동을 클릭합니다.
 
-![페이스북 픽셀 코드 설치](/img/posts/facebookpixel/pixelcode3.PNG)
+![페이스북 픽셀 코드 설치](/img/posts/04_facebookpixel/pixelcode3.PNG)
 
 #### 4. 웹사이트의 ```<head>```태그에 코드 삽입
 
@@ -76,11 +76,11 @@ description: '페이스북 광고를 위한 필수 도구인 픽셀을 설치하
 
 [이벤트 테스트 탭]으로 이동하여 [브라우저 이벤트 테스트]란에 웹사이트 주소를 입력한 후 [웹사이트 열기]를 클릭하세요. 웹사이트가 열리면서 PageView 이벤트를 발생시킵니다.
 
-![페이스북 픽셀 설치 확인 성공](/img/posts/facebookpixel/test.PNG)
+![페이스북 픽셀 설치 확인 성공](/img/posts/04_facebookpixel/test.PNG)
 
 * 픽셀이 잘 설치되었다면 아래 이미지와 같이 [PageView]이벤트가 수신된 것을 확인할 수 있습니다.
 
-![페이스북 픽셀 설치 확인 성공](/img/posts/facebookpixel/testsuccess.PNG)
+![페이스북 픽셀 설치 확인 성공](/img/posts/04_facebookpixel/testsuccess.PNG)
 
 <br>
 * 위와 같은 화면이 나오지 않고 아래 이미지처럼 "수신되는 활동이 없나요?" 문구가 추가되었다면 다시 아직 이벤트가 수신되지 않은 것이기 때문에 잠시 후 다시 시도해보거나(보통 5분 이내로 됩니다.) 설치한 코드를 다시 확인해 보세요.
@@ -88,21 +88,21 @@ description: '페이스북 광고를 위한 필수 도구인 픽셀을 설치하
 <br>2. 웹사이트의 관리자에서 코드 설치 후, **저장** 또는 **게시**를 했는지
 <br>확인해봅니다.
 
-![페이스북 픽셀 설치 확인 실패](/img/posts/facebookpixel/testfail.PNG)
+![페이스북 픽셀 설치 확인 실패](/img/posts/04_facebookpixel/testfail.PNG)
 
 ## 페이스북 픽셀을 검토하는 페이스북 픽셀 헬퍼(픽셀 지원 도구)
 
 [Facebook Pixel Helper(설치 링크)](https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc?hl=ko){:target="_blank"}는 픽셀이 제대로 작동하는지 확인할 수 있는 Chrome 브라우저 확장 프로그램입니다. 크롬 브라우저를 사용한다면 내 웹사이트뿐만 아니라 다른 웹사이트의 페이스북 픽셀도 확인할 수 있습니다.
 
-![크롬 확장 프로그램 페이스북 픽셀 헬퍼](/img/posts/facebookpixel/facebookpixelhelper.PNG)*크롬 확장 프로그램을 설치합니다.(저는 기존에 사용하고 있어서 삭제라고 떠요.)*
+![크롬 확장 프로그램 페이스북 픽셀 헬퍼](/img/posts/04_facebookpixel/facebookpixelhelper.PNG)*크롬 확장 프로그램을 설치합니다.(저는 기존에 사용하고 있어서 삭제라고 떠요.)*
 
-![픽셀 헬퍼가 작동하는 모습](/img/posts/facebookpixel/facebookpixelhelper2.PNG)*픽셀 헬퍼가 작동하는 모습*
+![픽셀 헬퍼가 작동하는 모습](/img/posts/04_facebookpixel/facebookpixelhelper2.PNG)*픽셀 헬퍼가 작동하는 모습*
 
 픽셀 헬퍼를 설치하면 내 웹사이트가 아니어도 그 페이지에 있는 픽셀의 상태를 확인 할 수 있습니다. 페이스북 픽셀 헬퍼에 관한 개발자 문서 페이지의 픽셀을 확인해봅시다.
 
 * [페이스북 픽셀 헬퍼 개발자 문서](https://developers.facebook.com/docs/facebook-pixel/support/pixel-helper){: target="_blank"}
 
-![페이스북 픽셀 헬퍼 개발자 문서의 픽셀](/img/posts/facebookpixel/facebookpixelhelper3.PNG)
+![페이스북 픽셀 헬퍼 개발자 문서의 픽셀](/img/posts/04_facebookpixel/facebookpixelhelper3.PNG)
 
 ## 마치며
 
