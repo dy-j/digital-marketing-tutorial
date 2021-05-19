@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /How-to-validate-mobile-numbers-in-Google-forms-using-regular-expression/
+permalink: /how-to-validate-mobile-numbers-in-Google-forms-using-regular-expression/
 title: '구글 설문지 : 정규표현식을 사용하여 전화번호 형식 지정하기'
 date: 2021-05-17 10:35:00 +09:00
 feature: '/img/posts/05_googleform/googleform_thumb.png'
@@ -18,7 +18,7 @@ description: '정규표현식을 사용하여 구글 설문지에서 원하는 �
 
 ![구글설문지에서 전화번호 형식 지정하기](/img/posts/05_googleform/googleform_numberonly.PNG)*안내문구만으론 잘 지켜지지 않는 현실...*
 
-구글 신청서에는 입력 형식을 제어할 수 있는 "**응답확인**"기능을 제공하고 있습니다. 이 **응답확인 기능과 정규표현식**을 사용하여, 원하는 형식대로 입력하도록 규칙을 만들어 봅시다.
+구글 신청서에는 입력 형식을 제어할 수 있는 **응답확인 기능과 정규표현식**을 사용하여, 원하는 형식대로 입력하도록 규칙을 만들어 봅시다.
 
 ## 구글 설문지 응답 확인 기능 사용법
 
