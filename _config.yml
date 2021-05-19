@@ -25,3 +25,8 @@ plugins:
 # 블로그 disqus shortname
 disqus:
   shortname: digitalmarketingtutorial
+
+# 코드블럭
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
