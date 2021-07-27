@@ -27,7 +27,7 @@ description: '여러개의 페이스북 픽셀을 사용할 때, 특정 픽셀�
 
 ### 1. 페이스북 기본 코드에서 확인하기
 
-페이스북 픽셀 기본 코드는 아래와 같이 생겼습니다. 아래 기본 코드에서 ```픽셀ID``` 부분에는 각 픽셀의 고유 ID가 들어갑니다.
+우선, 픽셀을 구분하여 이벤트를 설정하기 위해서는 픽셀ID를 파악해야합니다. 픽셀 설치 단계에서 본 페이스북 픽셀 기본 코드에서 ```픽셀ID``` 부분에는 각 픽셀의 고유 ID가 들어갑니다.
 
 ```javascript
   <!-- Facebook Pixel Code -->
@@ -82,7 +82,54 @@ fbq('trackSingleCustom', '픽셀ID', '이벤트명',{
   });
 ```
 
-### 마치며
+#### [튜토리얼] 따라해봅시다
+
+```javascript
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '픽셀ID - A'); //사용할 픽셀ID는 이 형식으로 이 위치에 추가합니다.
+    fbq('init', '픽셀ID - B');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=픽셀ID&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+```
+
+공통으로 사용할 이벤트
+
+```javascript
+fbq('track', '표준 이벤트명',{
+    //매개변수
+  });
+
+fbq('trackCustom', '맞춤 이벤트명');//매개변수 생략 버전
+```
+
+특정 픽셀에만 사용할 이벤트
+
+```javascript
+fbq('trackSingle', '픽셀ID - A', '표준 이벤트명',{
+    //매개변수
+  });
+
+fbq('trackSingleCustom', '픽셀ID - B', '맞춤 이벤트명',{
+    //매개변수
+  });
+```
+
+## 마치며
+
+사실 이 코드를 얼마나 더 자주 쓰게 될지는 잘 모르겠습니다. 하지만 예상치 못하게 필요한 상황이 있었기에 개발자 문서를 찾아보았고 기록차 정리했습니다.
 
 다음 포스팅에서는 이렇게 여러개의 픽셀을 사용해야할 때, 구글 태그 매니저를 통해 픽셀ID를 쉽게 관리하는 방법을 소개하겠습니다.
 
