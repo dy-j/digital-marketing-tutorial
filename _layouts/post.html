@@ -53,17 +53,8 @@ layout: default
 
 {% include disqus.html %}
 
-  <!-- <script>
-    window.onload = function(){
-      gtag('event', '보기', {
-      'event_category': '글',
-      'event_label': '{{ page.title }}'
-      })
-    }
-  </script> -->
-
   <script>
-  dataLayer.push({
-    'event': 'view_post'
-  });
-</script>
+    dataLayer.push({
+      'event': 'view_post'
+    });
+  </script>
