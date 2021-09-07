@@ -29,7 +29,7 @@ description: '여러개의 페이스북 픽셀을 사용할 때, 특정 픽셀�
 
 우선, 픽셀을 구분하여 이벤트를 설정하기 위해서는 픽셀ID를 파악해야합니다. 픽셀 설치 단계에서 본 페이스북 픽셀 기본 코드에서 ```픽셀ID``` 부분에는 각 픽셀의 고유 ID가 들어갑니다.
 
-```javascript
+```html
   <!-- Facebook Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -66,25 +66,29 @@ description: '여러개의 페이스북 픽셀을 사용할 때, 특정 픽셀�
 
 `fbq('trackSingle')` 함수 사용 방법
 
-```javascript
-fbq('trackSingle', '픽셀ID', '이벤트명',{
-    //매개변수
+```html
+<script>
+  fbq('trackSingle', '픽셀ID', '이벤트명',{
+      //매개변수
   });
+</script>
 ```
 
 * 참고 [표준 이벤트 리스트](https://developers.facebook.com/docs/facebook-pixel/reference#standard-events)
 
 맞춤 이벤트는 `fbq('trackSingleCustom')`를 같은 방법으로 사용합니다.
 
-```javascript
-fbq('trackSingleCustom', '픽셀ID', '이벤트명',{
+```html
+<script>
+  fbq('trackSingleCustom', '픽셀ID', '이벤트명',{
     //매개변수
   });
+</script>
 ```
 
 #### [튜토리얼] 따라해봅시다
 
-```javascript
+```html
   <!-- Facebook Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -107,24 +111,32 @@ fbq('trackSingleCustom', '픽셀ID', '이벤트명',{
 
 공통으로 사용할 이벤트
 
-```javascript
-fbq('track', '표준 이벤트명',{
+```html
+<script>
+  fbq('track', '표준 이벤트명',{
     //매개변수
   });
+</script>
 
-fbq('trackCustom', '맞춤 이벤트명');//매개변수 생략 버전
+<script>
+  fbq('trackCustom', '맞춤 이벤트명');//매개변수 생략 버전
+</script>
 ```
 
 특정 픽셀에만 사용할 이벤트
 
-```javascript
-fbq('trackSingle', '픽셀ID - A', '표준 이벤트명',{
+```html
+<script>
+  fbq('trackSingle', '픽셀ID - A', '표준 이벤트명',{
     //매개변수
   });
+</script>
 
-fbq('trackSingleCustom', '픽셀ID - B', '맞춤 이벤트명',{
+<script>
+  fbq('trackSingleCustom', '픽셀ID - B', '맞춤 이벤트명',{
     //매개변수
   });
+</script>
 ```
 
 ## 마치며
