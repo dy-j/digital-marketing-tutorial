@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /tada-moviereview/
-title: '영화 <타다 : 대한민국 스타트업의 초상> 후기 | 열정맨들을 따라 뛰고 싶어지는 영화'
+permalink: /tada-movie-review/
+title: '영화 타다 : 대한민국 스타트업의 초상 후기 - 열정맨들을 따라 뛰고 싶어지는 영화'
 date: 2021-08-14 18:00:00 +09:00
 feature: '/img/posts/10_tada/tada_thumb.png'
 categories:
