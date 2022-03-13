@@ -13,7 +13,7 @@ description: '여러개의 페이스북 픽셀을 사용할 때, 특정 픽셀�
 ---
 
 페이스북 픽셀 설치 방법은 이전 게시물을 참고해주세요.
-👉 [페이스북 픽셀 설치 및 작동 확인 방법 - 픽셀 헬퍼](https://hard-carry.com/facebook-pixel-connect/)
+👉 [페이스북 픽셀 설치 및 작동 확인 방법 - 픽셀 헬퍼](https://hard-carry.com/facebook-pixel-connect/){:target="_blank"}
 
 # 여러개의 픽셀이 필요한 경우
 
@@ -74,7 +74,7 @@ description: '여러개의 페이스북 픽셀을 사용할 때, 특정 픽셀�
 </script>
 ```
 
-* 참고 [표준 이벤트 리스트](https://developers.facebook.com/docs/facebook-pixel/reference#standard-events)
+* 참고 [표준 이벤트 리스트](https://developers.facebook.com/docs/facebook-pixel/reference#standard-events){:target="_blank"}
 
 맞춤 이벤트는 `fbq('trackSingleCustom')`를 같은 방법으로 사용합니다.
 
