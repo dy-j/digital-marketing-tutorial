@@ -34,7 +34,7 @@ colima와 docker를 통해 M2 칩 Mac에도 설치해보겠습니다.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-(참고) 홈브루 홈페이지 링크 : [https://brew.sh/](https://brew.sh/)
+(참고) 홈브루 홈페이지 링크 : [https://brew.sh/](https://brew.sh/)  
 
  
 
@@ -48,7 +48,7 @@ colima와 docker를 통해 M2 칩 Mac에도 설치해보겠습니다.
 brew install colima
 ```
 
-
+  
 
 ### 3\. colima를 실행하고 docker를 사용하여 Oracle DB 실행하기
 
@@ -91,6 +91,8 @@ docker exec -it oracle11g sqlplus
 
 
 \---
+
+  
 
 자료 찾기에 어려움이 있어서 삽질을 많이 했네요.
 
